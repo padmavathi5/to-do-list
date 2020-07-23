@@ -1,0 +1,29 @@
+.App {
+  width: 450px auto;
+  height: 1000px;
+}
+#to-do-form {
+  width: 450px;
+  height: 40px;
+}
+.ex {
+  background-color: navy;
+  width: 300px;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+#to-do-form input::placeholder {
+  color: white;
+  font-size: medium;
+}
+#to-do-form button {
+  background-color: red;
+  width: 70px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  /* padding-left: 20px; */
+  margin-left: 15px;
+}
